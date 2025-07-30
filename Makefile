@@ -6,3 +6,6 @@ stop:
 
 install:
 	composer install
+
+cc:
+	php bin/console cache:clear
